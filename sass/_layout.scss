@@ -1,0 +1,75 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: absolute;
+}
+
+.header__paragraph{
+    color: #f5a201;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    border-bottom: solid black 0.01rem;
+
+}
+
+.content-two{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    &__text { 
+        flex: 0 0 30%;
+        margin: 1.5rem;
+        text-align: left;
+    }
+    &__pic{
+        width: 100%;
+    }
+    &__name{
+        font-weight: 500;
+    }
+}
+
+
+.offer{
+    position: relative;
+    background-color: #f5a201;
+    margin: 0rem;
+    padding: 1.5rem;
+
+}
+
+.profile{
+    display: flex;
+    background-color: white;
+    
+
+    &__box{
+        background-color: rgb(233, 226, 127);
+        width: 100%;
+
+        &:last-child{
+            background-color: rgb(247, 241, 165);
+            // color: white;
+        }
+    }
+}
